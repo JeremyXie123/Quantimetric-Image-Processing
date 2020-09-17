@@ -12,7 +12,7 @@ def image_to_channels(image):
     return channels
 
 
-def comparagram_plot(image1, image2, regress, monochrome, axises, labels, save):
+def comparagram_plot(image1, image2, regress, monochrome, axises, labels, save, path):
     # convert images into their respective color channels
     image1_channels = image_to_channels(image1)
     image2_channels = image_to_channels(image2)
@@ -35,11 +35,11 @@ def comparagram_plot(image1, image2, regress, monochrome, axises, labels, save):
         samples = np.linspace(0,256, 2)
         for index, color in enumerate(colors):
             poly = np.polyfit(image1_channels[index],image2_channels[index],1)
-            print(color,"g(x) = "+str(poly[0])+"f"+" "+str(poly[1]))
+            #print(color,"g(x) = "+str(poly[0])+"f"+" "+str(poly[1]))
             plt.plot(samples,poly[0]*samples+poly[1],"-")
 
 
-    # ax.set_aspect('equal', adjustable='box')
+    ax.set_aspect('equal', adjustable='box')
     plt.axis('square')
 
     # axis visibility
@@ -57,13 +57,21 @@ def comparagram_plot(image1, image2, regress, monochrome, axises, labels, save):
 
     # Export/Viewing
     if save:
-        plt.savefig("test.png", bbox_inches='tight')
+        plt.savefig(path, bbox_inches='tight')
     else:
         plt.show()
 
 
 if __name__ == "__main__":
-    image1 = cv2.imread("Stills/v07.jpg")
-    image2 = cv2.imread("Stills/v08.jpg")
+    names = ["v01","v02","v03","v04","v05","v06","v07","v08","v09","v10","v11","v12"]
+    count = 0
+    for i in range(len(names)-1):
+        # iterating through the images from v01-v12
+        name1 = names[i]
+        name2 = names[i+1]
 
-    comparagram_plot(image1, image2, True, False, True, True, False)
+        image1 = cv2.imread("Stills/"+name1+".jpg")
+        image2 = cv2.imread("Stills/"+name2+".jpg")
+
+        comparagram_plot(image1, image2, True, False, True, True, True, "Comparagrams/{}-{}.png".format(name1,name2))
+    print("Process Finished")

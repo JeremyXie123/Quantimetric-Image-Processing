@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40278a29-fcc0-4ce7-afe0-803d50171a52" name="Default Changelist" comment="" />
+    <list default="true" id="40278a29-fcc0-4ce7-afe0-803d50171a52" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Comparagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comparagram.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +13,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Quantimetric_Image_Processing$comparagram_gamma_adjustment.coverage" NAME="comparagram_gamma_adjustment Coverage Results" MODIFIED="1600240667047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comparagram-master" />
     <SUITE FILE_PATH="coverage/Quantimetric_Image_Processing$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1599001808450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Quantimetric_Image_Processing$Comparagram.coverage" NAME="Comparagram Coverage Results" MODIFIED="1600285400955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Quantimetric_Image_Processing$Comparagram.coverage" NAME="Comparagram Coverage Results" MODIFIED="1600311987535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Quantimetric_Image_Processing$Camera_Response_Function.coverage" NAME="Camera Response Function Coverage Results" MODIFIED="1600295324672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Quantimetric_Image_Processing$Main_Program.coverage" NAME="Main_Program Coverage Results" MODIFIED="1598996705197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Quantimetric_Image_Processing$Signal_Averaging.coverage" NAME="Signal Averaging Coverage Results" MODIFIED="1600212303452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -46,14 +48,14 @@
           <entry key="bmp" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="jpg" value="38" />
-          <entry key="png" value="7" />
+          <entry key="png" value="10" />
           <entry key="py" value="31" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="46" />
+          <entry key="Image" value="49" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="31" />
         </counts>
@@ -62,29 +64,29 @@
         <counts>
           <entry key="dummy" value="36" />
           <entry key="gitignore" value="16" />
-          <entry key="py" value="10827" />
+          <entry key="py" value="10966" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="53" />
-          <entry key="Python" value="10827" />
+          <entry key="Python" value="10966" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Comparagram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-249">
-              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+            <state relative-caret-position="480">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1600285648770" expanded="true" signature="93:98" ph="..." />
-                <marker date="1600285648770" expanded="true" signature="383:1737" ph="..." />
+                <marker date="1600311985096" expanded="true" signature="93:98" ph="..." />
+                <marker date="1600311985096" expanded="true" signature="389:1736" ph="..." />
               </folding>
             </state>
           </provider>
@@ -93,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Signal Averaging.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="57">
+              <caret line="26" column="22" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="22" />
               <folding>
                 <marker date="1600285631566" expanded="true" signature="39:40" ph="..." />
                 <marker date="1600285631566" expanded="true" signature="39:44" ph="..." />
@@ -104,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Camera Response Function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+            <state relative-caret-position="111">
+              <caret line="28" selection-start-line="28" selection-end-line="36" selection-end-column="51" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <marker date="1600295323966" expanded="true" signature="130:1256" ph="..." />
@@ -165,7 +167,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -193,8 +195,8 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Test4.py" />
         <option value="$PROJECT_DIR$/Signal Averaging.py" />
-        <option value="$PROJECT_DIR$/Comparagram.py" />
         <option value="$PROJECT_DIR$/Camera Response Function.py" />
+        <option value="$PROJECT_DIR$/Comparagram.py" />
       </list>
     </option>
   </component>
@@ -204,7 +206,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="852" />
     <option name="height" value="441" />
   </component>
@@ -221,11 +223,6 @@
             <path>
               <item name="Quantimetric_Image_Processing" type="b2602c69:ProjectViewProjectNode" />
               <item name="Quantimetric_Image_Processing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Quantimetric_Image_Processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Quantimetric_Image_Processing" type="462c0819:PsiDirectoryNode" />
-              <item name="Stills" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Camera Response Function">
+  <component name="RunManager" selected="Python.Comparagram">
     <configuration name="Camera Response Function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Quantimetric_Image_Processing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,8 +377,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Camera Response Function" />
         <item itemvalue="Python.Comparagram" />
+        <item itemvalue="Python.Camera Response Function" />
         <item itemvalue="Python.Test4" />
         <item itemvalue="Python.comparagram_gamma_adjustment" />
         <item itemvalue="Python.comparagram" />
@@ -405,12 +402,12 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19433199" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19433199" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -645,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Signal Averaging.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="57">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="22" />
           <folding>
             <marker date="1600285631566" expanded="true" signature="39:40" ph="..." />
             <marker date="1600285631566" expanded="true" signature="39:44" ph="..." />
@@ -655,25 +652,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Comparagram.py">
+    <entry file="file://$PROJECT_DIR$/Camera Response Function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="111">
+          <caret line="28" selection-start-line="28" selection-end-line="36" selection-end-column="51" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1600285648770" expanded="true" signature="93:98" ph="..." />
-            <marker date="1600285648770" expanded="true" signature="383:1737" ph="..." />
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1600295323966" expanded="true" signature="130:1256" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Camera Response Function.py">
+    <entry file="file://$PROJECT_DIR$/Comparagrams/v02-v03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Comparagrams/v01-v02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Comparagram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+        <state relative-caret-position="480">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1600295323966" expanded="true" signature="130:1256" ph="..." />
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1600311985096" expanded="true" signature="93:98" ph="..." />
+            <marker date="1600311985096" expanded="true" signature="389:1736" ph="..." />
           </folding>
         </state>
       </provider>
