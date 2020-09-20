@@ -1,3 +1,3 @@
-A = [1,2,3]
-B = [4,5,6]
-print(A+B)
+import numpy as np
+
+print(np.empty([2,3], dtype="uint8"))
