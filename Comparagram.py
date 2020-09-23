@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+# part 3 of lab (computing pairwise comparagrams)
 
 def image_to_channels(image):
     shape = image.shape

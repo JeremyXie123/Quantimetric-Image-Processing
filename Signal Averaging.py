@@ -1,5 +1,7 @@
 import cv2
 
+# part 2 of lab (video signal averaging)
+
 def video_to_images(video):
     vidcap = cv2.VideoCapture(video)
     images = []

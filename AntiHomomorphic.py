@@ -2,7 +2,9 @@ import cv2
 import numpy as np
 from math import log
 
-#Constants derived from part 3 of the lab.
+# part 4 of lab (anti homomorphic estimation of q)
+
+# Constants derived from part 4 of the lab.
 GAMMA = [0.2461, 0.2476, 0.2477]
 ALPHA = [-15.2087, -16.7896, -16.4996]
 BETA = [1, 1, 1]
