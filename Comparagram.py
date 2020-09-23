@@ -75,3 +75,10 @@ if __name__ == "__main__":
 
         comparagram_plot(image1, image2, True, False, True, True, True, "Comparagrams/{}-{}.png".format(name1,name2))
     print("Process Finished")
+
+    # Code used for comparing the estimate of v12 with v12
+    # image1 = cv2.imread("Stills/v11.jpg")
+    # image2 = cv2.imread("Stills/v12.jpg")
+    # image3 = cv2.imread("Stills/v12fromv11.jpg")
+    # comparagram_plot(image1, image2, True, False, True, True, False, "")
+    # comparagram_plot(image1, image3, True, False, True, True, False, "")
