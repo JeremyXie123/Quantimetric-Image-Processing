@@ -27,7 +27,6 @@ def certainty(fxy, alpha, a):
     # Calculate the symmetrical derivative at the given point
     return (2*DT)/(v(fxy+DT, alpha, a)-v(fxy-DT, alpha, a))
 
-
 def calculate_q(fxy, alpha, a, k_exp):
     return f_inv(fxy, alpha, a) * 1 / k_exp
 
