@@ -11,7 +11,7 @@ https://docs.google.com/document/d/1sbuwmXDYt5700-mesJcNIrX4vbWHbM6AmMqs3d2YuVk/
 - Part 4 may have been done incorrectly, due to a lack of knowledge regarding anti homomorphic imaging.
 - The antihomomorphic imaging of part 4 was conducted on the stills v01-v12, as my current method is too slow to handle a single clip form the video data.
 
-#Navigation
+# Navigation
 - The images produced from the different parts can be found under the "Stills" folder.
 - The raw video data has been ommitted for memory concerns. They can be accessed from the lab.
 - The comparagrams generated in part 2 are located under the "Comparagrams" folder
