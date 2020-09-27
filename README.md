@@ -1,6 +1,6 @@
 # Quantimetric-Image-Processing
 # Purpose
-This repository was my attempt at understanding and applying concepts "Quantimetric Image Processing", a theory researched by Dr. Steve Mann, for use in image processing. 
+This repository was my attempt at understanding and applying concepts "Quantimetric Image Processing", a theory researched by Steve Mann, for use in image processing. 
 
 # Notes
 - These are the notes I have taken on the Steve Mann's paper, "Comparametric Equations with Practical Applications
